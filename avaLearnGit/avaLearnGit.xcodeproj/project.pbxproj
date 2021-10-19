@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB2D41E271E998700CBB36F /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2D41D271E998700CBB36F /* Tests_iOS.swift */; };
+		DAB2D420271E998700CBB36F /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2D41F271E998700CBB36F /* Tests_iOSLaunchTests.swift */; };
+		DAB2D42A271E998800CBB36F /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2D429271E998800CBB36F /* Tests_macOS.swift */; };
+		DAB2D42C271E998800CBB36F /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2D42B271E998800CBB36F /* Tests_macOSLaunchTests.swift */; };
+		DAB2D42D271E998800CBB36F /* avaLearnGitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2D405271E998500CBB36F /* avaLearnGitApp.swift */; };
+		DAB2D42E271E998800CBB36F /* avaLearnGitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2D405271E998500CBB36F /* avaLearnGitApp.swift */; };
+		DAB2D42F271E998800CBB36F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2D406271E998500CBB36F /* ContentView.swift */; };
+		DAB2D430271E998800CBB36F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2D406271E998500CBB36F /* ContentView.swift */; };
+		DAB2D431271E998800CBB36F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB2D407271E998700CBB36F /* Assets.xcassets */; };
+		DAB2D432271E998800CBB36F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB2D407271E998700CBB36F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB2D41A271E998700CBB36F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB2D400271E998500CBB36F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB2D40B271E998700CBB36F;
+			remoteInfo = "avaLearnGit (iOS)";
+		};
+		DAB2D426271E998800CBB36F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB2D400271E998500CBB36F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB2D411271E998700CBB36F;
+			remoteInfo = "avaLearnGit (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAB2D405271E998500CBB36F /* avaLearnGitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avaLearnGitApp.swift; sourceTree = "<group>"; };
+		DAB2D406271E998500CBB36F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAB2D407271E998700CBB36F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB2D40C271E998700CBB36F /* avaLearnGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = avaLearnGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB2D412271E998700CBB36F /* avaLearnGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = avaLearnGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB2D414271E998700CBB36F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DAB2D419271E998700CBB36F /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB2D41D271E998700CBB36F /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		DAB2D41F271E998700CBB36F /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		DAB2D425271E998800CBB36F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB2D429271E998800CBB36F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		DAB2D42B271E998800CBB36F /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		DAB2D441271E99C500CBB36F /* helloGit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloGit.h; sourceTree = "<group>"; };
+		DAB2D442271E99C500CBB36F /* helloGit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = helloGit.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB2D409271E998700CBB36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2D40F271E998700CBB36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2D416271E998700CBB36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2D422271E998800CBB36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB2D3FF271E998500CBB36F = {
+			isa = PBXGroup;
+			children = (
+				DAB2D404271E998500CBB36F /* Shared */,
+				DAB2D413271E998700CBB36F /* macOS */,
+				DAB2D41C271E998700CBB36F /* Tests iOS */,
+				DAB2D428271E998800CBB36F /* Tests macOS */,
+				DAB2D40D271E998700CBB36F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB2D404271E998500CBB36F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2D405271E998500CBB36F /* avaLearnGitApp.swift */,
+				DAB2D406271E998500CBB36F /* ContentView.swift */,
+				DAB2D407271E998700CBB36F /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DAB2D40D271E998700CBB36F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2D40C271E998700CBB36F /* avaLearnGit.app */,
+				DAB2D412271E998700CBB36F /* avaLearnGit.app */,
+				DAB2D419271E998700CBB36F /* Tests iOS.xctest */,
+				DAB2D425271E998800CBB36F /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB2D413271E998700CBB36F /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2D414271E998700CBB36F /* macOS.entitlements */,
+				DAB2D441271E99C500CBB36F /* helloGit.h */,
+				DAB2D442271E99C500CBB36F /* helloGit.c */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		DAB2D41C271E998700CBB36F /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2D41D271E998700CBB36F /* Tests_iOS.swift */,
+				DAB2D41F271E998700CBB36F /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		DAB2D428271E998800CBB36F /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2D429271E998800CBB36F /* Tests_macOS.swift */,
+				DAB2D42B271E998800CBB36F /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB2D40B271E998700CBB36F /* avaLearnGit (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB2D435271E998800CBB36F /* Build configuration list for PBXNativeTarget "avaLearnGit (iOS)" */;
+			buildPhases = (
+				DAB2D408271E998700CBB36F /* Sources */,
+				DAB2D409271E998700CBB36F /* Frameworks */,
+				DAB2D40A271E998700CBB36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "avaLearnGit (iOS)";
+			productName = "avaLearnGit (iOS)";
+			productReference = DAB2D40C271E998700CBB36F /* avaLearnGit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB2D411271E998700CBB36F /* avaLearnGit (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB2D438271E998800CBB36F /* Build configuration list for PBXNativeTarget "avaLearnGit (macOS)" */;
+			buildPhases = (
+				DAB2D40E271E998700CBB36F /* Sources */,
+				DAB2D40F271E998700CBB36F /* Frameworks */,
+				DAB2D410271E998700CBB36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "avaLearnGit (macOS)";
+			productName = "avaLearnGit (macOS)";
+			productReference = DAB2D412271E998700CBB36F /* avaLearnGit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB2D418271E998700CBB36F /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB2D43B271E998800CBB36F /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				DAB2D415271E998700CBB36F /* Sources */,
+				DAB2D416271E998700CBB36F /* Frameworks */,
+				DAB2D417271E998700CBB36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB2D41B271E998700CBB36F /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = DAB2D419271E998700CBB36F /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DAB2D424271E998800CBB36F /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB2D43E271E998800CBB36F /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				DAB2D421271E998800CBB36F /* Sources */,
+				DAB2D422271E998800CBB36F /* Frameworks */,
+				DAB2D423271E998800CBB36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB2D427271E998800CBB36F /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = DAB2D425271E998800CBB36F /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB2D400271E998500CBB36F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DAB2D40B271E998700CBB36F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DAB2D411271E998700CBB36F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DAB2D418271E998700CBB36F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DAB2D40B271E998700CBB36F;
+					};
+					DAB2D424271E998800CBB36F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DAB2D411271E998700CBB36F;
+					};
+				};
+			};
+			buildConfigurationList = DAB2D403271E998500CBB36F /* Build configuration list for PBXProject "avaLearnGit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB2D3FF271E998500CBB36F;
+			productRefGroup = DAB2D40D271E998700CBB36F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB2D40B271E998700CBB36F /* avaLearnGit (iOS) */,
+				DAB2D411271E998700CBB36F /* avaLearnGit (macOS) */,
+				DAB2D418271E998700CBB36F /* Tests iOS */,
+				DAB2D424271E998800CBB36F /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB2D40A271E998700CBB36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2D431271E998800CBB36F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2D410271E998700CBB36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2D432271E998800CBB36F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2D417271E998700CBB36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2D423271E998800CBB36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB2D408271E998700CBB36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2D42F271E998800CBB36F /* ContentView.swift in Sources */,
+				DAB2D42D271E998800CBB36F /* avaLearnGitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2D40E271E998700CBB36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2D430271E998800CBB36F /* ContentView.swift in Sources */,
+				DAB2D42E271E998800CBB36F /* avaLearnGitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2D415271E998700CBB36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2D420271E998700CBB36F /* Tests_iOSLaunchTests.swift in Sources */,
+				DAB2D41E271E998700CBB36F /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2D421271E998800CBB36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2D42C271E998800CBB36F /* Tests_macOSLaunchTests.swift in Sources */,
+				DAB2D42A271E998800CBB36F /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB2D41B271E998700CBB36F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB2D40B271E998700CBB36F /* avaLearnGit (iOS) */;
+			targetProxy = DAB2D41A271E998700CBB36F /* PBXContainerItemProxy */;
+		};
+		DAB2D427271E998800CBB36F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB2D411271E998700CBB36F /* avaLearnGit (macOS) */;
+			targetProxy = DAB2D426271E998800CBB36F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAB2D433271E998800CBB36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAB2D434271E998800CBB36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DAB2D436271E998800CBB36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = avaLearnGit.avaLearnGit;
+				PRODUCT_NAME = avaLearnGit;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB2D437271E998800CBB36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = avaLearnGit.avaLearnGit;
+				PRODUCT_NAME = avaLearnGit;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB2D439271E998800CBB36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = avaLearnGit.avaLearnGit;
+				PRODUCT_NAME = avaLearnGit;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DAB2D43A271E998800CBB36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = avaLearnGit.avaLearnGit;
+				PRODUCT_NAME = avaLearnGit;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DAB2D43C271E998800CBB36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "avaLearnGit.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "avaLearnGit (iOS)";
+			};
+			name = Debug;
+		};
+		DAB2D43D271E998800CBB36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "avaLearnGit.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "avaLearnGit (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB2D43F271E998800CBB36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "avaLearnGit.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "avaLearnGit (macOS)";
+			};
+			name = Debug;
+		};
+		DAB2D440271E998800CBB36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "avaLearnGit.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "avaLearnGit (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB2D403271E998500CBB36F /* Build configuration list for PBXProject "avaLearnGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2D433271E998800CBB36F /* Debug */,
+				DAB2D434271E998800CBB36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB2D435271E998800CBB36F /* Build configuration list for PBXNativeTarget "avaLearnGit (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2D436271E998800CBB36F /* Debug */,
+				DAB2D437271E998800CBB36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB2D438271E998800CBB36F /* Build configuration list for PBXNativeTarget "avaLearnGit (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2D439271E998800CBB36F /* Debug */,
+				DAB2D43A271E998800CBB36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB2D43B271E998800CBB36F /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2D43C271E998800CBB36F /* Debug */,
+				DAB2D43D271E998800CBB36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB2D43E271E998800CBB36F /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2D43F271E998800CBB36F /* Debug */,
+				DAB2D440271E998800CBB36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB2D400271E998500CBB36F /* Project object */;
+}
